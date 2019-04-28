@@ -6670,6 +6670,12 @@ public final class Settings {
          * @hide
          */
         public static final String WEATHER_LOCKSCREEN_ENABLED = "weather_lockscreen_enabled";
+		
+		/**
+         * Select which lockscreen date style to display
+         * @hide
+         */
+        public static final String LOCKSCREEN_DATE_SELECTION = "lockscreen_date_selection";
 
         /**
          * Use doubletap as doze pulse triggers
