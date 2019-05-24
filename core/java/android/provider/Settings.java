@@ -6640,6 +6640,18 @@ public final class Settings {
          * @hide
          */
         public static final String SMART_CHARGING_RESUME_LEVEL = "smart_charging_resume_level";
+		
+		/**
+         * Battery Estimate
+         * @hide
+         */
+        public static final String SHOW_BATTERY_ESTIMATE = "show_battery_estimate";
+
+        /**
+         * Battery Estimate Position
+         * @hide
+         */
+        public static final String BATTERY_ESTIMATE_POSITION = "battery_estimate_position";
 
         /**
          * Whether to show weather on lockscreen
