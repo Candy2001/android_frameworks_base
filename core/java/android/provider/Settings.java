@@ -6646,6 +6646,18 @@ public final class Settings {
          * @hide
          */
         public static final String SHOW_BATTERY_ESTIMATE = "show_battery_estimate";
+		
+		/**
+        * Powermenu Background
+        * @hide
+        */
+        public static final String POWER_MENU_BG = "power_menu_bg";
+
+        /**
+        * Powermenu Background Style
+        * @hide
+        */
+        public static final String POWER_MENU_BG_STYLE = "power_menu_bg_style";
 
         /**
          * Battery Estimate Position
