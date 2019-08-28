@@ -155,9 +155,6 @@ private int mUser;
             resolver.registerContentObserver(Settings.System
                     .getUriFor(Settings.System.STATUS_BAR_CUSTOM_HEADER), false,
                     this, UserHandle.USER_ALL);
-            resolver.registerContentObserver(Settings.System
-                    .getUriFor(Settings.System.SHOW_BATTERY_ESTIMATE), false,
-                    this, UserHandle.USER_ALL);
             }
 
         @Override
@@ -393,9 +390,6 @@ private int mUser;
       private void updateSettings() {
         mHeaderImageEnabled = Settings.System.getIntForUser(getContext().getContentResolver(),
                 Settings.System.STATUS_BAR_CUSTOM_HEADER, 0,
-                UserHandle.USER_CURRENT) == 1;
-        mShowEstimate = Settings.System.getIntForUser(getContext().getContentResolver(),
-                Settings.System.SHOW_BATTERY_ESTIMATE, 0,
                 UserHandle.USER_CURRENT) == 1;
         updateResources();
         updateStatusbarProperties();
