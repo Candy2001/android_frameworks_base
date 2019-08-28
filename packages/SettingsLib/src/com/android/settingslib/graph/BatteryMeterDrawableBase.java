@@ -289,7 +289,6 @@ public class BatteryMeterDrawableBase extends Drawable {
         // this is used by PA style battery to animate the icon
 	return mMeterStyle == BATTERY_STYLE_PA_CIRCLE ? true : false;
         }
-    }
 
     private void startChargingAnimation(int repeat) {
         int alpha = mBatteryPaint.getAlpha();
