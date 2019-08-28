@@ -241,9 +241,9 @@ private int mUser;
             mBatteryRemainingIcon = null;
 
             mBatteryMeterView.isQsbHeader();
-            mBatteryMeterView.setShowEstimate();
+            mBatteryMeterView.setShowEstimate(true);
             mBatteryMeterView.setOnClickListener(this);
-		} else {
+	} else {
             ((ViewGroup) mBatteryMeterView.getParent()).removeView(mBatteryMeterView);
             mBatteryMeterView = null;
 
