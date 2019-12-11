@@ -166,5 +166,5 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/google/notifications/Salacia.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Salacia.ogg \
     $(LOCAL_PATH)/google/notifications/Hey.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Hey.ogg \
     $(LOCAL_PATH)/google/notifications/Iapetus.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Iapetus.ogg \
-    $(LOCAL_PATH)/google/notifications/Io.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Io.ogg 
-    $(LOCAL_PATH)/google/ringtones/Callisto.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Callisto.ogg \
+    $(LOCAL_PATH)/google/notifications/Io.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Io.ogg \
+    $(LOCAL_PATH)/google/ringtones/Callisto.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Callisto.ogg 
