@@ -107,7 +107,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)material/ringtones/Summer_night.ogg:system/media/audio/ringtones/Summer_night.ogg \
     $(LOCAL_PATH)material/ringtones/The_big_adventure.ogg:system/media/audio/ringtones/The_big_adventure.ogg \
     $(LOCAL_PATH)material/ringtones/Zen.ogg:system/media/audio/ringtones/Zen.ogg \
-    $(LOCAL_PATH)material/ringtones/Zen_too.ogg:system/media/audio/ringtones/Zen_too.ogg
+    $(LOCAL_PATH)material/ringtones/Zen_too.ogg:system/media/audio/ringtones/Zen_too.ogg \
     $(LOCAL_PATH)/google/alarms/Argon.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Argon.ogg \
     $(LOCAL_PATH)/google/alarms/Awaken.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Awaken.ogg \
     $(LOCAL_PATH)/google/alarms/Bounce.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Bounce.ogg \
